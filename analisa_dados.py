@@ -15,7 +15,7 @@ class Analisa:
                 vetor = Analisa.geraAleatorio(n)
                 algoritmo(vetor)
                 totalTime += time.time() - start
-            return totalTime
+            return totalTime / repeticoes
         
     def criaOrdenado(n, repeticoes = 1000):
         totalTime = 0

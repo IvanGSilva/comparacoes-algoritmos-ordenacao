@@ -41,7 +41,6 @@ class Classe:
             else:
                 lista[k] = right[j]
                 j += 1
-
         return lista
         
     def shellSort(vetor):
